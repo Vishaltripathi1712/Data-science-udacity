@@ -25,7 +25,7 @@ def get_filters():
         
        
     # TO DO: get user input for month (all, january, february, ... , june)
-    months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
+    months = [ 'january', 'february', 'march', 'april', 'may', 'june']
     month = input('Enter the month from January to June OR Enter "all" for no month filter : ')
     month = month.casefold()
     while month not in months:
@@ -34,7 +34,7 @@ def get_filters():
         
     
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+    days = [ 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     day = input('Enter the day from Monday to Sunday OR Enter "all" for no day filter : ')
     day = day.casefold()
     while day not in days:
